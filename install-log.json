@@ -1,0 +1,87 @@
+{"timestamp":"2024-09-28T03:14:31.963Z","level":"info","moduleName":"InstallerWinProcess","pid":11440,"message":"trying to connect to the ipc server"}
+{"timestamp":"2024-09-28T03:14:31.963Z","level":"debug","moduleName":"UnityIPCClient","pid":11440,"message":"connecting to IPC Server Unity-hubInstallServer"}
+{"timestamp":"2024-09-28T03:14:31.996Z","level":"debug","moduleName":"InstallerWinProcess","pid":11440,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\",\"destinationFilename\":\"UnitySetup64-2022.3.48f1.exe\",\"installerFilename\":\"UnitySetup64-2022.3.48f1.exe\",\"installerPath\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\unityhub-099945f0-7d45-11ef-a3f6-afbdd339016f\",\"installerSizeInBytes\":3645314048,\"type\":0,\"uid\":\"2022.3.48f1-x86_64\",\"editorUniqueId\":{\"version\":\"2022.3.48f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-28T03:14:31.996Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-28T03:14:31.998Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-28T03:14:31.998Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying installation type: EDITOR"}
+{"timestamp":"2024-09-28T03:14:31.998Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying absence of an existing editor installation..."}
+{"timestamp":"2024-09-28T03:14:32.006Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Existing Editor Installation Check: Passed"}
+{"timestamp":"2024-09-28T03:14:32.007Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-28T03:14:32.007Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor"}
+{"timestamp":"2024-09-28T03:14:32.010Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-28T03:14:32.010Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-28T03:14:32.010Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Required space: 3645314048 bytes / 3.39 GB..."}
+{"timestamp":"2024-09-28T03:14:32.011Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Available disk Space: 45963198464 bytes"}
+{"timestamp":"2024-09-28T03:14:32.011Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-28T03:14:32.011Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-28T03:14:32.011Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\ASUS\\AppData\\Local\\Temp\\unityhub-099945f0-7d45-11ef-a3f6-afbdd339016f\\UnitySetup64-2022.3.48f1.exe"}
+{"timestamp":"2024-09-28T03:14:32.012Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-28T03:14:32.013Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-28T03:14:32.013Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-28T03:14:32.013Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-28T03:14:32.013Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-28T03:14:32.019Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"beforeEditorInstallation"}
+{"timestamp":"2024-09-28T03:14:32.020Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"execInstaller"}
+{"timestamp":"2024-09-28T03:14:32.020Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"installFromExe"}
+{"timestamp":"2024-09-28T03:14:32.020Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"install C:\\Users\\ASUS\\AppData\\Local\\Temp\\unityhub-099945f0-7d45-11ef-a3f6-afbdd339016f\\UnitySetup64-2022.3.48f1.exe /S /D=C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1"}
+{"timestamp":"2024-09-28T03:18:42.767Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"afterEditorInstallation"}
+{"timestamp":"2024-09-28T03:18:42.769Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"Check DotNet Core Prerequisites, os release [ '10', '0', '22631' ]"}
+{"timestamp":"2024-09-28T03:18:42.769Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"major 10 minor 0"}
+{"timestamp":"2024-09-28T03:18:42.769Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"shouldInstallKB2999226:  false shouldInstallKB2533623:  false"}
+{"timestamp":"2024-09-28T03:18:42.771Z","level":"info","moduleName":"InstallerWinProcess","pid":11440,"message":"Creating modules.json at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1\\modules.json"}
+{"timestamp":"2024-09-28T03:18:48.182Z","level":"debug","moduleName":"InstallerWinProcess","pid":11440,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\",\"destinationFilename\":\"UnitySetup-WebGL-Support-for-Editor-2022.3.48f1.exe\",\"installerFilename\":\"UnitySetup-WebGL-Support-for-Editor-2022.3.48f1.exe\",\"installerPath\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\unityhub-09a04ad0-7d45-11ef-a3f6-afbdd339016f\",\"installerSizeInBytes\":587451392,\"type\":1,\"uid\":\"webgl\",\"editorUniqueId\":{\"version\":\"2022.3.48f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-28T03:18:48.182Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-28T03:18:48.183Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-28T03:18:48.183Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-09-28T03:18:48.183Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Skipping module destination check for all Windows binary installers: webgl"}
+{"timestamp":"2024-09-28T03:18:48.183Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1\\modules.json"}
+{"timestamp":"2024-09-28T03:18:48.184Z","level":"debug","moduleName":"InstallerWinProcess","pid":11440,"message":"Validation strategy: {\"destination\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\",\"destinationFilename\":\"UnityDocumentation.zip\",\"installerFilename\":\"UnityDocumentation.zip\",\"installerPath\":\"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\unityhub-09a1d170-7d45-11ef-a3f6-afbdd339016f\",\"installerSizeInBytes\":350547047,\"type\":1,\"uid\":\"documentation\",\"editorUniqueId\":{\"version\":\"2022.3.48f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-28T03:18:48.184Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-28T03:18:48.185Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-28T03:18:48.185Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-09-28T03:18:48.185Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Skipping module destination check for whitelisted item: documentation"}
+{"timestamp":"2024-09-28T03:18:48.185Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying selected value of module in modules.json at C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1\\modules.json"}
+{"timestamp":"2024-09-28T03:18:48.186Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.186Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-28T03:18:48.186Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor"}
+{"timestamp":"2024-09-28T03:18:48.187Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.187Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-28T03:18:48.187Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Destination Path: C:\\Program Files\\Unity\\Hub\\Editor"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Required space: 587451392 bytes / 560.24 MB..."}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Available disk Space: 46107144192 bytes"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\ASUS\\AppData\\Local\\Temp\\unityhub-09a04ad0-7d45-11ef-a3f6-afbdd339016f\\UnitySetup-WebGL-Support-for-Editor-2022.3.48f1.exe"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Required space: 350547047 bytes / 334.31 MB..."}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Available disk Space: 46107144192 bytes"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"debug","moduleName":"Disk Validation Strategy","pid":11440,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-28T03:18:48.188Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\ASUS\\AppData\\Local\\Temp\\unityhub-09a1d170-7d45-11ef-a3f6-afbdd339016f\\UnityDocumentation.zip"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-28T03:18:48.192Z","level":"info","moduleName":"Disk Validation Strategy","pid":11440,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-28T03:18:48.196Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-09-28T03:18:48.197Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"Creating the folder of webgl, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1"}
+{"timestamp":"2024-09-28T03:18:48.197Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-09-28T03:18:48.197Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"Creating the folder of documentation, if needed: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1/Editor/Data"}
+{"timestamp":"2024-09-28T03:18:48.198Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"execInstaller"}
+{"timestamp":"2024-09-28T03:18:48.198Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"installFromExe"}
+{"timestamp":"2024-09-28T03:18:48.198Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"install C:\\Users\\ASUS\\AppData\\Local\\Temp\\unityhub-09a04ad0-7d45-11ef-a3f6-afbdd339016f\\UnitySetup-WebGL-Support-for-Editor-2022.3.48f1.exe /S /D=C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1"}
+{"timestamp":"2024-09-28T03:18:48.207Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"execInstaller"}
+{"timestamp":"2024-09-28T03:18:48.207Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"installFromZip"}
+{"timestamp":"2024-09-28T03:19:37.737Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"unzip finished"}
+{"timestamp":"2024-09-28T03:19:37.738Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"afterModuleInstallation"}
+{"timestamp":"2024-09-28T03:19:37.741Z","level":"info","moduleName":"InstallerWinProcess","pid":11440,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1\\modules.json"}
+{"timestamp":"2024-09-28T03:20:18.293Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":11440,"message":"afterModuleInstallation"}
+{"timestamp":"2024-09-28T03:20:18.294Z","level":"info","moduleName":"InstallerWinProcess","pid":11440,"message":"Updating modules.json file at: C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.48f1\\modules.json"}
